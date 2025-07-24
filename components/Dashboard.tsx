@@ -41,13 +41,8 @@ export default function Dashboard() {
                 className="pl-10 bg-blue-100 border-blue-200 rounded-xl"
               />
             </div>
-            <div className="bg-white border border-gray-300 rounded-lg px-4 py-2">
-              <span className="text-gray-500 text-sm">Today's Sales</span>
-              <div className="text-xl font-bold">₹ {todaysSales.toLocaleString()}</div>
-            </div>
-            <Button variant="outline" className="flex items-center gap-2 bg-transparent">
-              Category <Menu className="w-4 h-4" />
-            </Button>
+            
+            
           </div>
 
           {/* Products Grid */}
